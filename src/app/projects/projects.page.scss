@@ -1,0 +1,21 @@
+:host {
+  --ion-background-color: #fef6e4; 
+}
+
+ion-toolbar {
+  --background: #f8c8dc; 
+  --color: #000;
+}
+
+.projeto-card {
+  margin-bottom: 16px;
+  border-radius: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  background: #fff9f6;
+}
+
+ion-card-title {
+  font-weight: bold;
+  font-size: 1.1em;
+}
+

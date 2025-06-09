@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-button (click)="closeModal()">
+        <ion-icon slot="icon-only" name="arrow-back"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-title>{{ projeto.titulo }}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <div class="project-detail-card">
+    <p><strong>Descrição:</strong> {{ projeto.descricao }}</p>
+    <p><strong>Detalhes:</strong> {{ projeto.detalhes }}</p>
+    <p><strong>Link:</strong> <a [href]="projeto.link" target="_blank">{{ projeto.link }}</a></p>
+  </div>
+</ion-content>
+

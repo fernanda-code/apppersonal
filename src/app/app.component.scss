@@ -1,0 +1,42 @@
+ion-menu {
+  --background: #fef8f3; 
+  --color: #333;
+
+  ion-header {
+    background-color: #f7c1d1; 
+    color: #000;
+    padding: 16px;
+    text-align: center;
+
+    h3 {
+      margin: 0;
+      font-size: 1.2rem;
+      font-weight: bold;
+    }
+  }
+
+  ion-content {
+    --background: #fef8f3;
+
+    ion-item {
+      --background: transparent;
+      --color: #000;
+      --border-radius: 12px;
+      margin: 8px 12px;
+
+      ion-icon {
+        color: #e06c9f; 
+      }
+
+      ion-label {
+        font-weight: 500;
+      }
+
+      &:hover {
+        background-color: #f9dce3; 
+      }
+    }
+  }
+}
+
+

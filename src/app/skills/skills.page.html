@@ -1,0 +1,38 @@
+<ion-header>
+  <ion-toolbar style="--background: #f8c8dc;">
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Habilidades</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content style="--background: #fdf6ec;">
+  <div class="container">
+    <div class="habilidade">
+      <p>HTML</p>
+      <ion-progress-bar [value]="valHTML"></ion-progress-bar>
+    </div>
+
+    <div class="habilidade">
+      <p>CSS</p>
+      <ion-progress-bar [value]="valCSS" color="secondary"></ion-progress-bar>
+    </div>
+
+    <div class="habilidade">
+      <p>JavaScript</p>
+      <ion-progress-bar [value]="valJS" color="tertiary"></ion-progress-bar>
+    </div>
+
+    <div class="habilidade">
+      <p>Angular</p>
+      <ion-progress-bar [value]="valAngular" color="warning"></ion-progress-bar>
+    </div>
+
+    <div class="habilidade">
+      <p>Ionic</p>
+      <ion-progress-bar [value]="valIonic" color="success"></ion-progress-bar>
+    </div>
+  </div>
+</ion-content>
+
