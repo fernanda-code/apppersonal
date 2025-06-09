@@ -29,7 +29,7 @@ export class ProjectsPage {
       titulo: 'APP de Apresentação Pessoal',
       descricao: 'Aplicativo pessoal com informações, habilidades e projetos.',
       detalhes: 'Este aplicativo foi desenvolvido com o framework Ionic + Angular com foco em apresentar informações pessoais de forma organizada, responsiva e estilizada. A aplicação conta com telas como “Sobre Mim”, “Habilidades”, “Projetos” e “Contato”, cada uma delas com navegação funcional, menu lateral e design agradável com cores suaves. O projeto também inclui o uso de animações simples, barra de progresso e envio de formulário com feedback por toast, representando uma integração completa entre layout e funcionalidades modernas.',
-      link: 'https://github.com/seuprojeto3'
+      link: 'https://github.com/fernanda-code/apppersonal'
     }
   ];
 
